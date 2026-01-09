@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hero{
+    background-image: url("./images/tucson.jpg");
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.hero h1{
+    background-color: #1D3557;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 0;
+    
+}
+.hero h2{
+    background-color: #457B9D;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+.activities{
+    background-color: #F1FAEE;
+    height: 380px;
+    text-align: center;
+    
+}
+.activities h3{
+    margin: 0;
+    padding: 40px;
+    
+}
+.flex-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+    
+}
+.flex-container img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+}
